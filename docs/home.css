@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --left-indent: 7rem;
+}
+
+body {
+    max-width: 100ch;
+    margin: auto;
+    padding: 0 2rem 0 2rem;
+}
+
+h1, h2 {
+    color: gray
+}
+
+div {
+    outline: 2px solid black;
+}
+
+/* Select per ID */
+#top {
+    background: red;
+}
+
+/* Select per Class */
+.mid {
+    background: green;
+}
+
+/* Select per Title */
+[title="bot"] {
+    background: blue;
+}
+
+/* Pseudo Class */
+button:hover {
+    background: aqua;
+}
+
+.boxmodel1 {
+    padding: 0 3rem 0 3rem;
+    margin: 0 1rem 0 1rem;
+}
+
+.boxmodel2 {
+    padding: 3vw;
+    margin: 2vw;
+}
