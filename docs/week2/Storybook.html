@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Storybook for the Web Engineering Module</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #343a40;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 1.5em;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+            color: gray;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            margin-bottom: 8px;
+            color: gray;
+            border-bottom: 2px solid gray;
+            padding-bottom: 5px;
+        }
+
+        section {
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        article {
+            margin-bottom: 20px;
+            padding: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: gray;
+            color: white;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        caption {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+            text-align: left;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        address {
+            font-style: normal;
+        }
+    </style>
+</head>
+
+<body>
+<header>
+    <dfn title="Drehbuch">Storybook</dfn> for the Web Engineering Module
+</header>
+
+<main>
+    <section id="context">
+        <h1>Module Delivery Mode</h1>
+        <p>This installment of the <dfn title="WebEngineering">webeC</dfn> module.</p>
+    </section>
+
+    <section id="content">
+        <h1>Delivery Dates and Examination Details</h1>
+        <article>
+            <h2>Overview</h2>
+            <table>
+                <caption>Delivery Dates</caption>
+                <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>#</th>
+                    <th>Topic</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Mi, 18.09.24</td>
+                    <td>1</td>
+                    <td>HTML</td>
+                </tr>
+                <tr>
+                    <td>Mi, 25.09.24</td>
+                    <td>2</td>
+                    <td>CSS</td>
+                </tr>
+                <tr>
+                    <td>Mi, 02.10.24</td>
+                    <td>3</td>
+                    <td>Grails, Web, MVC, Test</td>
+                </tr>
+                <tr>
+                    <td>Mi, 09.10.24</td>
+                    <td>4</td>
+                    <td>GSP, Template, Taglib, Layout</td>
+                </tr>
+                <tr>
+                    <td>Mi, 16.10.24</td>
+                    <td>5</td>
+                    <td>Persistence, DB-Access</td>
+                </tr>
+                <tr>
+                    <td>Mi, 23.10.24</td>
+                    <td>6</td>
+                    <td>Simple Security</td>
+                </tr>
+                <tr>
+                    <td>Mi, 30.10.24</td>
+                    <td>7</td>
+                    <td>REST, Services</td>
+                </tr>
+                <tr>
+                    <td>Mi, 06.11.24</td>
+                    <td>8</td>
+                    <td>ANWESENHEITSPLICHT! Übungsvorbereitung</td>
+                </tr>
+                <tr>
+                    <td>Mi, 13.11.24</td>
+                    <td>9</td>
+                    <td>JavaScript</td>
+                </tr>
+                <tr>
+                    <td>Mi, 20.11.24</td>
+                    <td>10</td>
+                    <td>Responsive / Mobile Web</td>
+                </tr>
+                <tr>
+                    <td>Mi, 04.12.24</td>
+                    <td>11</td>
+                    <td>Übungsanlass</td>
+                </tr>
+                <tr>
+                    <td>Mi, 11.12.24</td>
+                    <td>12</td>
+                    <td>Übungsanlass</td>
+                </tr>
+                <tr>
+                    <td>Mi, 18.12.24</td>
+                    <td>13</td>
+                    <td>WICHTIG! Übungsabgabe</td>
+                </tr>
+                <tr>
+                    <td>Mi, 08.01.25</td>
+                    <td>14</td>
+                    <td>Deployment</td>
+                </tr>
+                <tr>
+                    <td>Mi, 15.01.25</td>
+                    <td>15</td>
+                    <td>Prüfungsvorbereitung</td>
+                </tr>
+                </tbody>
+                <tfoot>
+                <tr>
+                    <td colspan="3">MSP date to be announced</td>
+                </tr>
+                </tfoot>
+            </table>
+        </article>
+
+        <article>
+            <h2>Total Effort</h2>
+            <p>Classroom lectures add up to <code>15 * 3h = 45h</code>.</p>
+            <p>Prework and afterwork, including homework, add up to <code>15 * 1h = 15h</code>.</p>
+            <p>The exercise for the continuous assessment grade takes <code>4 * 5h = 20h</code>.</p>
+            <p>Preparation for the final exam will take approximately <code>8h</code>.</p>
+            <p>Writing the final exam takes <code>2h</code>.</p>
+            <p>This makes a total of <code>90h</code>.</p>
+        </article>
+
+        <article id="criteria">
+            <h2>Passing Criteria</h2>
+            <ul>
+                <li>You have to attend the exercise preparation event.</li>
+                <li>You have to do the exercise and deliver it before the deadline.</li>
+                <li>You have to attend the <dfn title="Modulschlussprüfung">final exam (MSP)</dfn>.</li>
+            </ul>
+            <p>Your exercise will determine your <abbr title="Erfahrungsnote">continuous assessment grade (EN)</abbr>.</p>
+            <p>EN and MSP together make your final grade.</p>
+        </article>
+    </section>
+</main>
+
+<footer>
+    <address>Dierk König, 5.2B16, <a href="mailto:dierk.koenig@fhnw.ch">dierk.koenig@fhnw.ch</a></address>
+</footer>
+</body>
+
+</html>
